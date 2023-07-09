@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// Specifies the color theme used in the workbench.
+		"workbench.colorTheme": "Default Dark+"
+	}
+}

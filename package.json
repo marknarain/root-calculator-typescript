@@ -1,0 +1,32 @@
+{
+  "name": "root-calculator-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node out/main.js",
+    "prestart": "npm run build",
+    "build": "tsc",
+    "debug": "nodemon ./src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marknarain",
+  "license": "-",
+  "dependencies": {
+    "ts-node": "10.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22",
+    "typescript": "5.1.3"
+  },
+  "nodemonConfig": {
+    "include": [
+      "./src"
+    ],
+    "ignore": [
+      "**/test/**",
+      "**/docs/**"
+    ],
+    "delay": 1500
+  }
+}
